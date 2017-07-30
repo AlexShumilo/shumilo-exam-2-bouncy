@@ -81,6 +81,7 @@ function initMap() {
         infowindow.open(map, marker);
     });
 }
+document.addEventListener('DOMContentLoaded', initMap);
 /* GOOGLE MAP END*/
 
 /* SMOOTH SCROLL */
